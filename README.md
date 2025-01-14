@@ -1,2 +1,2 @@
 # CSE110
-It contains all the assignments for with solutions for CSE110
+It’s your one-stop destination for all CSE110 assignments, packed with comprehensive solutions to ace the course effortlessly!
