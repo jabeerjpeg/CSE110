@@ -27,10 +27,9 @@ Here are a few key points to remember:
 
 Thank you for your dedication and commitment to excellence.
 
-Warm regards,
-Xavier Hasan (Jabeer)
-Email: jvrhsn123@gmail.com
-Email: [jvrhsn123@gmail.com](mailto:jvrhsn123@gmail.com)
+**Warm regards,**
+- Xavier Hasan (**Jabeer**)
+- Email: [jvrhsn123@gmail.com](mailto:jvrhsn123@gmail.com)
 
 ---
 
