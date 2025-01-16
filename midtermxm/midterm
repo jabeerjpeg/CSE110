@@ -1,0 +1,76 @@
+import java.util.Scanner;
+
+public class midtermxm {
+    public static void main(String[]args){
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter an integer number: ");
+
+        int a = sc.nextInt(); // given value
+        int x = a; // placeholder for given value
+        int p = 0;
+        int q = 0;
+        int z = 0;
+
+        while (x/10!=0) {
+            p = x%10; //stores the rightmost digit
+            x = x/10;
+            q = x%10; //stores the 2nd rightmost digit
+            x = x/10;
+
+            if((p+q)/10==0){ //why do we divide by 10 not sum>10
+                z = p+q; //last digit
+            }
+            else{
+                z = (p+q)%10;
+            }
+
+            x = x*10 + z;  //x is number
+        }
+
+        int Checksum = x;
+
+        System.out.println("Checksum: "+ Checksum);
+
+        //Let's reverse the number for convinience
+
+        int r = 0;
+        int s = 0;
+        int b = 0;
+
+        while (a!=0) {
+            r = a%10;
+            a = a/10;
+
+            b = b*10 + r;
+        }
+
+        int y = b;
+        r = 0;
+        s = 0;
+
+        if(Checksum%2==0){
+            System.out.println("Checksum is even");
+
+            while (y!=0) {
+                r = y%10;
+                y = y/10;
+
+                if(r%2==0){
+                    System.out.print(r+" ");
+                }
+            }
+        }
+        else{
+            System.out.println("Checksum is odd");
+
+            while (y!=0) {
+                r = y%10;
+                y = y/10;
+
+                if(r%2!=0){
+                    System.out.print(r+" ");
+                }
+            }
+        }
+    }
+}
